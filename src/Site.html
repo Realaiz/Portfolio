@@ -23,24 +23,38 @@
             </div>
 <!----------------------------------------------------------------------------------------------->
             <footer class="fbar"> <!--Container for the footer element-->
-                <div class="row1"> <!--#####need to add ip geolocation js script-->
+                <div class="fr1"> <!--#####need to add ip geolocation js script-->
                     <span>Australia</span>
                 </div>
                    
-                <div class="row2">
-                    <div class="lsr2"> <!--left side row 2 items-->
+                <div class="fr2">
+                    <div class="lr2"> <!--left side, row 2 items-->
                         <ul>
-                            <li>Github</li>
-                            <li>Stackoverflow</li>
-                            <li>Linkdin</li>
-                            <li>Socials</li>
+                            <li><a href="https://github.com/Realaiz">Github</a></li>
+                            <li><a href="https://stackoverflow.com/users/12077022/realaiz">Stackoverflow</a></li>
+                            <li><a href="https://www.linkedin.com/in/alireza-sharifzadeh-1a6866193/">Linkdein</a></li>
+                            
+                            <li class="mdwnm"> <!--Dropdown social-media menu with icons-->
+                                <div class="mdwncont">
+                                    <img/>
+                                    <img/>
+                                    <img/>
+                                    <img/>
+                                </div>
+                            </li>
                         </ul>
                     </div>
-                    <div class="rsr2"> <!--right side row 2 items -->
+
+                    <div class="rr2"> <!--right side, row 2 items -->
                         <ul>  
-                            <li>Accessibility</li>
-                            <li>Terms</li>
-                            <li>Settings</li> <!--Darkmode toggle in a dropdown menu-->
+                            <li><a href="Accessibility.html">Accessibility</a></li>
+                            <li><a href="Terms.html">Terms</a></li>
+                            
+                            <li class="sdwnm">
+                                <div class="sdwncont"> <!--Dropdown colour-palette toggles <strong><em>DARK MODE IS SUPERIOR</em></strong>-->
+                                    <input type="checkbox" id="checkbox">
+                                </div>
+                            </li> 
                         </ul>
                     </div>
                 </div>
@@ -51,3 +65,18 @@
 <!----------------------------------------------------------------------------------------------->
 
 </html>
+
+
+
+
+
+
+
+
+<!-- Keys
+    fr=footer row
+    fbar=^bar
+    sdwnm=settings dropdown menu
+    dwncont=dropdown content
+
+-->
