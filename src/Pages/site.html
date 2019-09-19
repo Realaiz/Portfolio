@@ -1,67 +1,43 @@
 <!DOCTYPE html>
 <html lang="en"> <!--Used for allowing search engines to return language specific results-->
 
-    <head> <!--html Metadata isn't displayed-->    
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!--5-7 is for allowing ports to different devices-->
-        <link rel="stylesheet" href="Sitecss.css"> <!--Imports styles from specified stylesheet -->
-        <title>Main-page</title>
-    </head>
+<head> <!--html Metadata isn't displayed-->    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!--5-7 is for allowing ports to different devices-->
+    <link rel="stylesheet" href="Sitecss.css"> <!--Imports styles from stylesheet -->
+    <title>Main-page</title>
+</head>
 
-<!----------------------------------------------------------------------------------------------->
-    <body>
-        <div class="center-page" id="viewport"> <!--Viewport is a name for all visible elements-->
-<!----------------------------------------------------------------------------------------------->
-            <header>
-                <span><a href="Aboutme.html">About Me</a></span>
-            </header>
-<!----------------------------------------------------------------------------------------------->
-            <div class="content" id="main"> <!--Code for middle page transitions-->
+<body>
+    <div class="slideshow-container">
 
+        <div class="me mySlides slideIn slide">
+
+
+        </div> <!--me slide </div>-->
+
+        <div class="github mySlides slide">
+
+
+        </div> <!-- github slide </div>-->
+        
+        <div class="stack-overflow mySlides slide">
+
+
+        </div> <!--stackoverflow slide </div>-->
+        
+        <div class="linkedin mySlides slide">
                 
-            </div>
-<!----------------------------------------------------------------------------------------------->
-            <footer class="fbar"> <!--Container for the footer element-->
-                <div class="fr1"> <!--#####need to add ip geolocation js script-->
-                    <span id="geoinject">Australia</span>
-                </div>
-                   
-                <div class="fr2">
-                    <div class="lr2"> <!--left side, row 2 items-->
-                        <ul>
-                            <li><a href="https://github.com/Realaiz">Github</a></li>
-                            <li><a href="https://stackoverflow.com/users/12077022/realaiz">Stackoverflow</a></li>
-                            <li><a href="https://www.linkedin.com/in/alireza-sharifzadeh-1a6866193/">Linkdein</a></li>
-                            
-                            <li class="mdwnm"> <!--Dropdown social-media menu with icons-->
-                                <div class="mdwncont">
-                                    <img/>
-                                    <img/>
-                                    <img/>
-                                    <img/>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+        </div> <!--Linkedin slide </div>-->
 
-                    <div class="rr2"> <!--right side, row 2 items -->
-                        <ul>  
-                            <li><a href="Accessibility.html">Accessibility</a></li>
-                            <li class="sdwnm">
-                                <div class="sdwncont"> <!--Dropdown colour-palette toggles <strong><em>DARK MODE IS SUPERIOR</em></strong>-->
-                                    <input type="checkbox" id="checkbox">
-                                </div>
-                            </li> 
-                        </ul>
-                    </div>
-                </div>
-            </footer>
-<!----------------------------------------------------------------------------------------------->
-        </div>
-    </body>
-<!----------------------------------------------------------------------------------------------->
+    </div> <!--slideshow-container /div-->
 
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--Using Google's CDN to import the jQuery library.-->
+</body>
 </html>
 
 
@@ -72,9 +48,9 @@
 
 
 <!-- Keys
-    fr=footer row
-    fbar=^bar
-    sdwnm=settings dropdown menu
-    dwncont=dropdown content
+fr=footer row
+fbar=^bar
+sdwnm=settings dropdown menu
+dwncont=dropdown content
 
 -->
