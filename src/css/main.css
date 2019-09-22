@@ -1,4 +1,7 @@
-* {
+body,
+#slideshow-container,
+.wrap,
+.slide-content {
   margin: 0;
   padding: 0;
   font-family: 'Comfortaa', cursive;
@@ -7,62 +10,71 @@
   overflow: hidden;
 }
 
-.slideshow-container {
+.wrap {
   position: relative;
 }
 
-.mySlides {
-  display: none;
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.prev, .next {
+.meSlide {
+  background-image: url("https://static.pexels.com/photos/302889/pexels-photo-302889.jpeg");
+}
+
+.githubSlide {
+  background-image: url("https://static.pexels.com/photos/302892/pexels-photo-302892.jpeg");
+}
+
+.slide3 {
+  background-image: url("https://static.pexels.com/photos/226633/pexels-photo-226633.jpeg");
+}
+
+.slide-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.slide-content span {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.arrow {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  -webkit-transition: 0.6s ease;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
 }
 
-.next {
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff;
   right: 0;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: .4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: .4;
-  }
-  to {
-    opacity: 1;
-  }
+  margin-right: 30px;
 }
 /*# sourceMappingURL=main.css.map */
