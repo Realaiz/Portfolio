@@ -1,0 +1,26 @@
+body {
+    background-color: #8C43FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.columns {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    margin: 3vh 20vh;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.column {
+    text-align: justify;
+}
+
+.column3 {
+    border-left: 1px solid #E6ECF8;
+}
+
+
+.column1 {
+    border-right: 1px solid #E6ECF8;
+}
