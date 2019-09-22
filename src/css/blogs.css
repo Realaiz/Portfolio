@@ -1,0 +1,19 @@
+body {
+    background-color: #FBD786;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    /* padding: 0 20%; */
+}
+
+.blogs {
+    border: solid black;
+    margin: 0 20%;
+    padding: 20px;
+}
