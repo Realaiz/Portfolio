@@ -62,7 +62,7 @@ a {text-decoration: none;}
   top: 50%;
   margin-top: -22px;
   width: auto;
-  // padding: 16px;
+  padding: 5px;
   color: white;
   font-size: 2em;
   transition: 0.6s ease;
@@ -72,15 +72,14 @@ a {text-decoration: none;}
   // border-width: 15px 20px 15px 0;
   // border-color: transparent #fff transparent transparent;
   left: 0;
-  margin-left: 10px;
 }
 
 #arrow-right {
   // border-width: 15px 0 15px 20px;
   // border-color: transparent transparent transparent #fff;
   right: 0;
-  margin-right: 10px;
 }
 
-
-
+#arrow-right:hover, #arrow-left:hover {
+  background-color: hsla(273, 70%, 0%, 0.54);
+}
