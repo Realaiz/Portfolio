@@ -10,6 +10,21 @@ body,
   overflow: hidden;
 }
 
+strong {
+  color: #1f1e1f;
+}
+
+a {
+  text-decoration: none;
+}
+
+#aboutme {
+  position: absolute;
+  color: #8e8d91;
+  margin-left: 9px;
+  margin-top: 7px;
+}
+
 .wrap {
   position: relative;
 }
@@ -56,8 +71,8 @@ body,
   text-align: center;
 }
 
-.slide-content span {
-  font-size: 5rem;
+.slide-content span, .slide-content span a {
+  font-size: 4rem;
   color: #fff;
 }
 
@@ -75,13 +90,13 @@ body,
   border-width: 30px 40px 30px 0;
   border-color: transparent #fff transparent transparent;
   left: 0;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 #arrow-right {
   border-width: 30px 0 30px 40px;
   border-color: transparent transparent transparent #fff;
   right: 0;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=main.css.map */
