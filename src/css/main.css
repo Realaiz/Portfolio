@@ -39,8 +39,8 @@ a {
 }
 
 .githubSlide {
-  background-image: -webkit-gradient(linear, left top, right top, from(#134e5e), to(#71b280));
-  background-image: linear-gradient(to right, #134e5e, #71b280);
+  background-image: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
+  background-image: linear-gradient(to right, #11998e, #38ef7d);
 }
 
 .stackSlide {
