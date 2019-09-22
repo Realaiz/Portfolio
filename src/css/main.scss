@@ -24,10 +24,14 @@ body,
   background-image: url("https://static.pexels.com/photos/302889/pexels-photo-302889.jpeg");
 }
 .githubSlide {
-  background-image: url("https://static.pexels.com/photos/302892/pexels-photo-302892.jpeg");
+  background-image: linear-gradient(to right, #134e5e, #71b280);
 }
-.slide3 {
-  background-image: url("https://static.pexels.com/photos/226633/pexels-photo-226633.jpeg");
+.stackSlide {
+  background-image: linear-gradient(to right, #ffd89b, #19547b);
+}
+
+.linkedSlide {
+    background-image: linear-gradient(to right, #373b44, #4286f4);
 }
 
 .slide-content {
