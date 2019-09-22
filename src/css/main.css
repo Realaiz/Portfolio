@@ -80,22 +80,20 @@ a {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  margin-top: -35px;
-  width: 0;
-  height: 0;
-  border-style: solid;
+  margin-top: -22px;
+  width: auto;
+  color: white;
+  font-size: 2em;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
 }
 
 #arrow-left {
-  border-width: 30px 40px 30px 0;
-  border-color: transparent #fff transparent transparent;
   left: 0;
   margin-left: 10px;
 }
 
 #arrow-right {
-  border-width: 30px 0 30px 40px;
-  border-color: transparent transparent transparent #fff;
   right: 0;
   margin-right: 10px;
 }
