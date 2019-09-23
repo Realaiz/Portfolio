@@ -15,7 +15,7 @@ The main page is a big splash page with a slideshow background image that is res
 
 There is a contact form in a separate html page with an ease in animation, I aimed to decrease clutter as much as possible throughout the entire process of designing the site.
 
-![Sitemap](src/images/capture.png)
+![Sitemap](https://raw.githubusercontent.com/Realaiz/Portfolio/master/src/images/Wireframe.PNG)
 
 
 ![Homepage](src/images/home.png)
