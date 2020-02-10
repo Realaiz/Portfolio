@@ -24,4 +24,9 @@
 ----
 
 ## HERE WE GO! Attemp no 2 @ a decent portfolio
+----
+### Goals:
 
+Async react portfolio with fun stuff
+No boring text.
+Funnies
